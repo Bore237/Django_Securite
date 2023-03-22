@@ -1,0 +1,8 @@
+{% autoescape off %} 
+  Bienvenue sur borel store
+  Bonsoir {{ name }}
+  Confirmer votre adress email en cliquant sur le lien
+  lien : https//{{domain}}{%url 'activate' uidb64=uid token=token%} 
+{% endautoescape %}
+
+<!-- lorsque on utilisa pas de html -->
